@@ -6,8 +6,9 @@ from post import Post
 from comment import Comment
 from tag import Tag
 
+#DESKTOP-VIKK52P
 def main():
-    db = DatabaseConnection(server='DESKTOP-VIKK52P', database='PersonalBlog')
+    db = DatabaseConnection(server='Device\SQLEXPRESS', database='PersonalBlog')
 
 
     user_manager = User(db)
