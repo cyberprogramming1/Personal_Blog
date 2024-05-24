@@ -8,7 +8,7 @@ from tag import Tag
 
 #DESKTOP-VIKK52P
 def main():
-    db = DatabaseConnection(server='Device\SQLEXPRESS', database='PersonalBlog')
+    db = DatabaseConnection(server='DEVICE\SQLEXPRESS', database='PersonalBlog')
 
 
     user_manager = User(db)
